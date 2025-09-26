@@ -1,6 +1,6 @@
 /*BENJAMIN WAMBUA MAUNDU
 
-ADMISION NUMBER: S10-5086-2023
+ADMISION NUMBER: S10-5038-2023
 
 SCHOOL OF PURE AND APPLIED SCIENCES
 
@@ -25,20 +25,17 @@ public class discountLevels {
 
         //given discounts
 
-        if (price < 500) {
+        if (price < 1000) {
             discountRate = 0;
         }
-        else if (price < 1000) {
-            discountRate = 0.02;
-        }
-         else if (price < 2000) {
+       
+        
+         else if (price < 5000) {
             discountRate = 0.05;
         }
-          else if (price < 5000) {
-            discountRate = 0.10;
-        }
+       
         else {
-            discountRate = 0.20;
+            discountRate = 0.10;
         }
 
         double Discount = price * discountRate;
